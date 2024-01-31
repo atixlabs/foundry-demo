@@ -33,12 +33,7 @@ forge test
 You'll see it currently fails!
 
 
-# Contributing
-
-Contributions are always welcome! Open a PR or an issue!
-
-
 ## Resources
 
 -   [Foundry Documentation](https://book.getfoundry.sh/)
-
+-   [Patrick Alpha C Article](https://patrickalphac.medium.com/fuzz-invariant-tests-the-new-bare-minimum-for-smart-contract-security-87ebe150e88c)
