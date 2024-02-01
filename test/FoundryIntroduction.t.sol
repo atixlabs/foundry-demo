@@ -15,8 +15,10 @@ contract FoundryIntroductionTest is StdInvariant, Test {
 
     // Help: use `assert([condition])` to test a condition
     function testIsAlwaysZeroUnit() public {
-        // Implement a unit test that checks if `shouldAlwaysBeZero` variable is 0
-        // after calling the doStuff() function.
+        // Example implementation of Unit Test
+        uint256 data = 0;
+        exampleContract.doStuff(data);
+        assert(exampleContract.shouldAlwaysBeZero() == 0);
     }
 
     // Implement a fuzz test that checks if `shouldAlwaysBeZero` variable is 0
