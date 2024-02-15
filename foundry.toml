@@ -7,4 +7,8 @@ no_match_test='testSolution'
 [fuzz]
 runs = 1000
 
+[invariant]
+runs = 25000
+depth = 6
+
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config

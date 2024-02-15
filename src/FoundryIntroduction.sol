@@ -7,10 +7,7 @@ contract FoundryIntroduction {
     uint256 private hiddenValue = 0;
 
     function doStuff(uint256 data) public {
-        if (data == 2) {
-            shouldAlwaysBeZero = 1;
-        }
-        if (hiddenValue == 7) {
+        if (hiddenValue == 7 && data == 3) {
             shouldAlwaysBeZero = 1;
         }
         hiddenValue = data;
